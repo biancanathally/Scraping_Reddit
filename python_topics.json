@@ -1,0 +1,121 @@
+[
+  {
+    "subreddit": "Python",
+    "url": "https://www.reddit.com/r/Python",
+    "title": "Reddit - The heart of the internet",
+    "scraped_at": "2025-12-17 19:31:30",
+    "python_topics": [
+      {
+        "title": "r/PythonPycon US 2025starts next week!",
+        "type": "python_topic"
+      },
+      {
+        "title": "r/Python Rules",
+        "type": "python_topic"
+      },
+      {
+        "title": "\"How do I\", Help, or similar questions belong in r/LearnPython",
+        "type": "python_topic"
+      },
+      {
+        "title": "Posts must be relevant to the Python Programming Language",
+        "type": "python_topic"
+      },
+      {
+        "title": "When posting projects please include both description text and a link to source code",
+        "type": "python_topic"
+      },
+      {
+        "title": "Join the Python Discord",
+        "type": "python_topic"
+      },
+      {
+        "title": "Related Python communities",
+        "type": "python_topic"
+      }
+    ],
+    "discussions": [
+      {
+        "title": "Sunday Daily Thread: What's everyone working on this week?votes \u2022comments",
+        "url": "/r/Python/comments/1plzvku/sunday_daily_thread_whats_everyone_working_on/",
+        "type": "discussion"
+      },
+      {
+        "title": "Tuesday Daily Thread: Advanced questionsvotes \u2022comment",
+        "url": "/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/",
+        "type": "discussion"
+      },
+      {
+        "title": "Tuesday Daily Thread: Advanced questionsvotes \u2022comment",
+        "url": "/r/Python/comments/1pbt718/tuesday_daily_thread_advanced_questions/",
+        "type": "discussion"
+      },
+      {
+        "title": "Beta release of ty - an extremely fast Python type checker and language server",
+        "url": "/r/Python/comments/1podix2/beta_release_of_ty_an_extremely_fast_python_type/",
+        "type": "discussion"
+      },
+      {
+        "title": "Is anyone else choosing not to use AI for programming?",
+        "url": "/r/Python/comments/1p9wluw/is_anyone_else_choosing_not_to_use_ai_for/",
+        "type": "discussion"
+      },
+      {
+        "title": "Any sites that I can used to make API requests for the positions of planets in the solar system",
+        "url": "/r/Python/comments/1pp0bzi/any_sites_that_i_can_used_to_make_api_requests/",
+        "type": "discussion"
+      }
+    ]
+  },
+  {
+    "subreddit": "learnpython",
+    "url": "https://www.reddit.com/r/learnpython",
+    "title": "Reddit - The heart of the internet",
+    "scraped_at": "2025-12-17 19:31:33",
+    "python_topics": [
+      {
+        "title": "r/learnpython",
+        "type": "python_topic"
+      },
+      {
+        "title": "r/learnpython Rules",
+        "type": "python_topic"
+      },
+      {
+        "title": "Posts to this subreddit must be requests for help learning python.",
+        "type": "python_topic"
+      },
+      {
+        "title": "Code Hosting/Formatting",
+        "type": "python_topic"
+      }
+    ],
+    "discussions": [
+      {
+        "title": "Ask Anything Monday - Weekly Threadvote \u2022comments",
+        "url": "/r/learnpython/comments/1pmt14q/ask_anything_monday_weekly_thread/",
+        "type": "discussion"
+      },
+      {
+        "title": "Ask Anything Monday - Weekly Threadvotes \u2022comments",
+        "url": "/r/learnpython/comments/1paxmgz/ask_anything_monday_weekly_thread/",
+        "type": "discussion"
+      },
+      {
+        "title": "I can read and understand code, but I can't build my own logic. How do I bridge the gap?",
+        "url": "/r/learnpython/comments/1potia7/i_can_read_and_understand_code_but_i_cant_build/",
+        "type": "discussion"
+      },
+      {
+        "title": "Best way to learn python in 2025? looking for real advice",
+        "url": "/r/learnpython/comments/1p41rlz/best_way_to_learn_python_in_2025_looking_for_real/",
+        "type": "discussion"
+      },
+      {
+        "title": "What is a venv?",
+        "url": "/r/learnpython/comments/1pjudpx/what_is_a_venv/",
+        "type": "discussion"
+      }
+    ]
+  }
+]
