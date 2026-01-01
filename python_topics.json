@@ -3,10 +3,14 @@
     "subreddit": "Python",
     "url": "https://www.reddit.com/r/Python",
     "title": "Reddit - The heart of the internet",
-    "scraped_at": "2025-12-17 19:31:30",
+    "scraped_at": "2026-01-01 20:48:05",
     "python_topics": [
       {
         "title": "r/PythonPycon US 2025starts next week!",
+        "type": "python_topic"
+      },
+      {
+        "title": "Thursday Daily Thread: Python Careers, Courses, and Furthering Education!",
         "type": "python_topic"
       },
       {
@@ -37,33 +41,176 @@
     "discussions": [
       {
         "title": "Sunday Daily Thread: What's everyone working on this week?votes \u2022comments",
-        "url": "/r/Python/comments/1plzvku/sunday_daily_thread_whats_everyone_working_on/",
-        "type": "discussion"
+        "url": "https://www.reddit.com/r/Python/comments/1pxck5u/sunday_daily_thread_whats_everyone_working_on/",
+        "type": "discussion",
+        "comments_count": 11,
+        "comments": [
+          "I'm on leave this week but at work I'm building a tool/platform to basically automate my entire job.I work for a library and they've got a few hundred terabytes of digitised content to move into a preservation system. The system can only ingest about 1 TB a day, but I think the main bottle neck is matching up data on network share on prem storage to it's record in the LMS.So what I've built over the last 2 months since starting is a tool that inspects all files, and pulls out all the metadata it can. Then a searching and matching system that tries to link those files to a record in the LMS with some kind of confidence score. Once its matched, it then proposes entities to upload (since is a many to 1 relationship between files and entities). Once those entities are accepted, it then runs them through a rules engine that makes sure the formats are right, expected business and technical checks pass. If they fail, it proposes a remediation plan and then performs the remediation. After that it packages it up for upload.Then just before I went on leave last week I got the uploader module working so it handles transferring to and tracking ingest from the destination system and builds appropriate logs. Lots of error handling and data structures, trying to build the system to be extensible to suit whatever the library decides it wants.When I get back I'm going back through the codebase and implementing database and tables everywhere that needs it. Then after that, building front end. There's a little bit of work to do with the LMS API to update some data after the transfer and ingest is successful, but that can wait.In all it's basically a vault guardian, with the intent being all content doing into this digital preservation system passes through it, to make sure it's appropriately described. ,",
+          "Hey that's pretty cool. What stack are you using for this project?",
+          "It's pure python so far. Importing a couple of third party modules.Planning on FastAPI or potentially Django for web backend, probably react for front end.  Postgres for database with SQLAlchemy and AlembicI've learnt a fair bit about digital preservation. Main things people care about is fixity and provenance. So basically once the system registers a file, it should be able to output a log of events to show how it got into the digital preservation system at the end and track any file transformations and changes in fixity.",
+          "I built a free (No signup) site readiness check to catch the basics before you spend money.Most marketing problems start before traffic ever shows up.Broken tracking.\nMissing pixels.\nNo indexing setup.https://baselineverify.com",
+          "tl;dr: We're buildingLuma Docs, a better Python doc generator that's built on the same framework Stripe uses for their docs. Here's what the requests docs look likebefore (Sphinx)andafter (Luma Docs).I maintain a large Python project for work. We use Sphinx, and it causes a lot of problems for us. I know there are other alternatives like MkDocs, but they're not designed for Python, and I really need something that's Python-first. Besides, I figure the Python community deserves something good.Anyway, we recently revamped our search bars, and I'm pretty proud of how they turned out. Here's a screenshot!https://postimg.cc/JHw3LrrS",
+          "Built an application that turns your phone browser into a trackpad for to control your pc.Feel free to try it out. I've only tried it with an android phone running chrome and a windows pc. It might work with an iPhone aswell but not perfectly. It requires both devices to be on the same network but doesn't require an internet connection.trackpad.onlineHere you can find the code if you're curious/sceptical. I did pretty much all of this using Gemini and Claude, I don't have too much experience with python before this.https://github.com/Alfons111/Trackpad/releases/tag/v1.0I created this for controlling Youtube on my TV when casting from my PC to run it with adblock. So I added some controls for volume/media control. Please try it out and let me know what you think!",
+          "minilineplotCreated this over the holiday. Its a single Python module, very mimimalist, with no dependencies, producing an SVG image of a chart with one or more plotted lines.The chart has a left vertical axis and a bottom horizontal axis, grid lines are possible,Two classes are defined.Line, containing x,y points which creates a line to be plottedAxiswhich creates the axis, and to which Line objects can be added.The Axis class has methods to create an svg string suitable for embedding in an html document it can also create an svg image, either as a bytes object, or saved to a file.github here",
+          "I just released the public version for my modern replacement for PyAutoGUI that natively handles High-DPI and Multi-Monitor setups.It features:-Built-in GUI Inspectorto snip, edit, test, and generate code.-Automatic.UsesSessionlogic to scale coordinates & images automatically.-Up to 5x Faster.Usesmss& Pyramid Template Matching & Image caching.-locateAny/locateAllbuilt-in. Finds first or all matches from a list of images.You can find more information about it here:pyauto-desktop: A desktop automation tool",
+          "Same crime's Kill.",
+          "why do it same crime.",
+          "you share's 1% in my share."
+        ]
+      },
+      {
+        "title": "Thursday Daily Thread: Python Careers, Courses, and Furthering Education!votes \u2022comments",
+        "url": "https://www.reddit.com/r/Python/comments/1q0qvbq/thursday_daily_thread_python_careers_courses_and/",
+        "type": "discussion",
+        "comments_count": 0,
+        "comments": []
       },
       {
         "title": "Tuesday Daily Thread: Advanced questionsvotes \u2022comment",
-        "url": "/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/",
-        "type": "discussion"
+        "url": "https://www.reddit.com/r/Python/comments/1pbt718/tuesday_daily_thread_advanced_questions/",
+        "type": "discussion",
+        "comments_count": 0,
+        "comments": []
       },
       {
-        "title": "Tuesday Daily Thread: Advanced questionsvotes \u2022comment",
-        "url": "/r/Python/comments/1pbt718/tuesday_daily_thread_advanced_questions/",
-        "type": "discussion"
+        "title": "I built a drop-in Scikit-Learn replacement for SVD/PCA that automatically selects the optimal rank",
+        "url": "https://www.reddit.com/r/Python/comments/1q16o9o/i_built_a_dropin_scikitlearn_replacement_for/",
+        "type": "discussion",
+        "comments_count": 12,
+        "comments": [
+          "That's a very cool contribution!Out of curiosity, did you consider contributing the improvement directly to scikit-learn?",
+          "Thanks! That is definitely the long-term goal.However, Scikit-learn is (rightfully) very conservative about adding new algorithms and API changes. Since Gavish-Donoho involves specific statistical assumptions and Virtual Centering changes how sparse data is traditionally handled inTruncatedSVD, I decided to build this as a standalone, fast-moving library first.My strategy is to use this package as a \"proving ground.\" If the community finds therank_selection='auto'API stable and useful, I\u2019ll have a much stronger case to write a SLEP (Scikit-Learn Enhancement Proposal) and try to merge it upstream later on!",
+          "Yep, I totally understand the situation. I think that's the best approach to get the feature merged, and even then it may still take a long time.",
+          "Very neat work, I do a lot of PCA (and PLS) at work on reasonably large datasets, so speedups are appreciated.When you referencetas the \"target\" number of latent variables, is that something you use (i.e. will always compute that number) or simply take as a suggestion? For me I always prefer to have control but would appreciate an \"auto\" flag.Similar vein of thought, why usetand notn_components, like the sklearn PCA class?",
+          "Thanks for the feedback! To answer your questions:tvsn_components:You are totally right. The low-level functional API (rsvd,rpca) usest(target rank) following the mathematical notation of the Halko et al. paper.However, the high-level classRandomizedSVD(which is the recommended way to use the library now) fully adheres to the Scikit-Learn API and usesn_componentsexactly as you'd expect.Control vs Auto:The library is designed to give you exactly that choice via therank_selectionparameter in the class wrapper:rank_selection='manual': It respects yourn_componentsstrictly (e.g., if you ask for 50, you get 50). This gives you full control.rank_selection='auto': It usesn_componentsas a \"buffer\" (an upper bound computational limit) but effectively cuts the rank automatically using the Gavish-Donoho threshold.So if you want total control, you just stick to the default manual mode (rank_selection='manual'). If you want denoising magic, you flip the switch toauto.I have just released v0.5.0 to polish exactly this integration. Would love to hear if theRandomizedSVDclass fits your workflow better! I am open to suggestions and collabs.",
+          "Ah gotcha, makes sense. Neat!I would suggest publishing to JOSS. We did that for a different PCA and PLS implementation and received great feedback. Got a bit distracted with the rest of 2025 priorities so haven't finished all the JOSS review yetlink to the medium articlelink to the JOSS article",
+          "Just finished reading your Medium article onopen_nipals.It is interesting to see how we tackled different bottlenecks while sticking to the same Scikit-Learn design philosophy.open_nipalsis clearly the go-to formissing data(via NIPALS), whereas my focus withrandomized-svdwas optimizing formassive sparse arrays(Virtual Centering) andautomatic denoising(Gavish-Donoho).The JOSS suggestion is spot on. I will definitely use your submission as a blueprint to streamline the process for my library.Thanks for the pointer, I\u2019ll be keeping an eye on your work!",
+          "Thanks! It's definitely not just me, I had an awesome postdoc who helped tremendously with cleaning up and, frankly, taking my code farther than I could. We just use NIPALS a lot as it is an implicit standard in our work.Will check out your package and look forward to your pubs!",
+          "Great software is rarely a solo act! It makes perfect sense that NIPALS is the standard in your domain, especially given the strict requirements around data integrity. I really appreciate you taking the time to check out the repo. I\u2019ll be sure to update you once the JOSS paper is out.Have a great start to 2026!",
+          "Main win here is treating rank selection as a first-class problem instead of an afterthought hyperparam you brute-force with grid search.\nI\u2019ve run into the same pain in image and log-data denoising: you know there\u2019s low-rank structure, but you never know if n_components=40 or 400 is \u201cright\u201d without a bunch of trial and error. Baking Gavish\u2013Donoho in as the default lets you use PCA like a real signal processing tool, not a guessing game. Virtual centering on sparse inputs is a big deal too; most people just give up and densify, then wonder where their RAM went.\nOne idea: expose some simple diagnostics from the auto-rank step (threshold, kept vs dropped spectrum, maybe an \u201ceffective SNR\u201d) so users can log/monitor it over datasets. Also a \u201chinted\u201d mode where you set a max rank but still use the threshold internally could be handy for tight latency budgets.\nI\u2019ve paired this kind of PCA step with feature stores (Feast, Tecton) and API layers like DreamFactory when I needed to ship denoised embeddings into downstream services without hand-tuning every pipeline.",
+          "You articulated the value proposition better than I did! \"Treating rank selection as a first-class problem\" is exactly the philosophy behind this repo.Regarding your suggestions:\"Hinted\" Mode:Good news: this is actually the default behavior! Inrank_selection='auto'mode, then_componentsparameter acts exactly as that computational \"ceiling\" (or hint).Example:If you setn_components=200but Gavish-Donoho finds the cut-off at 45, the model effectively truncates to 45 (keeping the noise out).Latency Budget:If the theoretical optimal rank is 500 but you capped it atn_components=100, it respects the 100 limit. This prevents run-away execution times on massive datasets.Diagnostics (SNR, Spectrum):This is a killer idea. Right now you can inspectmodel.singular_values_, but exposing a cleanmodel.diagnostics_dictionary (with estimated noise variance \u03c32, effective SNR, and the threshold used) would make logging to MLflow/WandB much more insightful. I\u2019m adding this to the roadmap for v0.6.0.It\u2019s really cool to hear about the Feast/Tecton integration. Building \"set-and-forget\" denoising layers for feature stores is exactly where I see this shining. Thanks for the feedback!",
+          "How does this compare to Minka's maximum likelihood estimationn_components='mle'?https://tminka.github.io/papers/pca/minka-pca.pdfI have a vague recollection that was the only possible alternative when brute grid search was just too slow for an application I worked on some years back. I'm happy to try further improvements!"
+        ]
       },
       {
-        "title": "Beta release of ty - an extremely fast Python type checker and language server",
-        "url": "/r/Python/comments/1podix2/beta_release_of_ty_an_extremely_fast_python_type/",
-        "type": "discussion"
+        "title": "Top Python Libraries of 2025 (11th Edition)",
+        "url": "https://www.reddit.com/r/Python/comments/1pptnyc/top_python_libraries_of_2025_11th_edition/",
+        "type": "discussion",
+        "comments_count": 91,
+        "comments": [
+          "Shout-out todataframely, a polars-native DataFrame validation library.",
+          "That is a great catch!",
+          "How\u2019s it compare to Pandera?",
+          "not just hypeStarts with tyI mean no offense to them but it's not to the level of its alternatives. Next year maybe.",
+          "Yeah this threw me off. I\u2019m excited for ty, but they only just announced a beta release. Yet, there\u2019s no mention of pyrefly?",
+          "They said themselves that it's not ready to use. No one has been able to properly test it yet but it's at the top of the list. Literally pure hype.",
+          "I've gotten a lot done with polars and plotly express.",
+          "Same, but based on the choices on the list I assume they only included libraries released in 2025. It would probably look very different if all libraries were considered.",
+          "that seems likely. Including older libraries would probably change the ranking a lot.",
+          "It is annoying how all of the AI libraries are LLM LLM LLM. There is so much more to AI and data than only LLM",
+          "TOON, the solution looking for a problem",
+          "Yeah as soon as I saw that I had doubts about the legitimacy of these lists",
+          "Same, a list with TOON feels like a repo with DS_Store file",
+          "Could you elaborate on that? Haven\u2019t used it but isn\u2019t it clever to compress in order to get less confusion from the llm? The smaller the input the better then output right ? (At least if the compression is high in signal to noise ratio )",
+          "What you\u2019re saying makes sense in theory, but you also have to think about what the LLM is trained on. Practically speaking, there is infinitely more data on JSON and CSV than TOON, so the LLM will \u201cunderstand\u201d those formats more easily",
+          "But as I understand it the point is not that it requires additional training for a new syntax,  but that it removes the superfluous and redundant parts of a json array /csv ?",
+          "Either way\u2014that\u2019s not what it was trained on. In a vacuum that\u2019s great, but large models with less than 0.1% of their input being TOON seems like it would hurt the results more than help, for now at least.",
+          "interesting, thanks",
+          "prioritizing real-world usefulnessTOON, MCPs",
+          "I mean thats why they provide two lists, no?",
+          "Yeah, half these lists are just \"what got the most GitHub stars this month\" energy. MCPs especially feel like a solution waiting for an actual problem to solve. Real-world usefulness means I'm actually using it in production, not just bookmarking it for \"someday.\"",
+          "MCPs especially feel like a solution waiting for an actual problem to solve.Anthropic already admitted they are not that useful.",
+          "Yeah, no, sorry, MCPs are just plain useless bullshit. By extension, a package for making MCP is also useless.",
+          "Keep living in your fairytale, just do not come lecture me about the real world",
+          "How does complexipy work? How can a computer model how human-understandable something is? If it\u2019s traditional, I think that would neglect the importance of good file naming and variable naming. If it\u2019s AI, I think AIs think very differently from humans, so I\u2019d still be skeptical.",
+          "Hey, I\u2019m the complexipy author and you are completely right, multiple times people have asked the same in my reddit posts, I\u2019m having this into account on a new section in the docs that I\u2019m working on because I know that it\u2019s pretty confusing if you want to understand it! I\u2019m currently working on this because you are right on that the documentation isn\u2019t clear and mainly because initially for me complexipy was an alternative for the people who comes from using Sonar and not being like the introduction to cognitive complexity, I didn\u2019t consider that it could reach so many people",
+          "My biggest issue with your read me and docs is that there are absolutely no examples of what the output looks like for any input. Unless I am somehow blind lol",
+          "Do you have a two sentence description of it? Does it consider good file naming or variable naming?",
+          "It would be great if your docs had example python and the output that complexipy gives for it.",
+          "This was a question of mine too. I love how the documentation has a short, high-level blurb about what cognitive complexity is and then just dives into examples. It's apparently inspired by a white paper by a person named G. Ann Campbell. I wish they just gave me some idea of how to interpret the number it produces before it went into the examples.",
+          "I tried to read the white paper but apparently it\u2019s secret, it directed to a long form of personal information they wanted.",
+          "You could have fooled me with the 11 year history. This looks like something a vibe coder would come up with.",
+          "It's actually real. We've beencollecting libraries since 2015! :)",
+          "Cyclopts for cli handling, coupled with Pydantic2",
+          "Where numpy and scipy?",
+          "This post includes libraries released in 2025 (or close) only :)",
+          "Considered writing that in the post?",
+          "Considered reading the title?",
+          "Yes? Top libraries of 2025. As in \"status in 2025\", not \"top libraries released in 2025\"",
+          "Yep, that's 100% what I read it as, it is not explicit that it's ones released in 2025 rather than the state of the ecosystem as of 2025, and the latter is the much more common use of that kind of phrasology.",
+          "Do not forget our lord and savior matplotlib.pyplot!",
+          "I\u2019m definitely an atheist as far as that library goes.",
+          "Are you in academia?",
+          "Are you kidding? Matplotlib.pyplot is everything for people in academia.Source: trust me",
+          "Can confirm. PGFplots is also imperial double chocolate coffee stout, but matplotlib hits a sweet spot for me. mhchem and siunitx? Got your back.",
+          "I think mhchem 4 has some serious performance issues in large documents. You should check out chemformula",
+          "Yeah that\u2019s why I asked. I thought he might know something I didn\u2019t",
+          "Mainly because they haven't dared making a single Google search and realized that seaborn, plotly or any other library than bare bones plt. At least useplt.style.use('ggplot')... Academia does not attest to quality content",
+          "God no!",
+          "Doesnt look like something a real SWE would write. Looks more like an AI post - superficial marketing type descriptions. Doubt OPs have actually used theseLike complexipy: Both their description and the repo itself has a very AI writing smell to it. Neither they nor the actual repo shows a single example. And the \"science\" its built on is by some shady shop (SonarSource)",
+          "hey, here Robin the complexipy author, I\u2019ve used AI but to fix my grammar errors as I\u2019m Colombian and my primary language isn\u2019t english, but I\u2019ve written all the docs and currently I\u2019m writing a section in the docs website to explain in details how to refactor.Also, I\u2019ve found around two papers which used complexipy as a tool on their investigation, and there are multiple companies using it in their pipelines.I\u2019ve found multiple people asking about how to read the number which is assigned during the analysis and I\u2019ve taking it into consideration during the new section writing.When I started to work on complexipy, uv was getting famous, so I was inspired by their work and I wanted to use Rust in a personal project so that\u2019s why the complexipy description is pretty similar to the uv one.",
+          "Thanks for responding!Can you please add to the docs how complexity is calculated along with examples?I\u2019ve found around two papers which used complexipy as a tool on their investigation, and there are multiple companies using it in their pipelines.Can you link these? And perhaps mention who these companies are? Or ideally what repos are using complexipy in their pre-commit or CI pipelines?",
+          "Yeah, sure I'll include it!Here are some papers, I didn't find any otherCan LLMs Generate Higher Quality Code Than Humans? An Empirical StudyAbsolute Zero: Reinforced Self-play Reasoning with Zero DataImproving Quality in AI-Generated Code through Prompt EngineeringHere is one section atThe Real Python Podcast, I think that they explained it better than I could at that moment and also here's aninterviewI had this year about complexipy (I was nervous sorry)Here are somerepositoriesusing complexipy andpackages",
+          "thanks!and dont worry about the English - Youre tool could be a very useful and widely adopted one, especially in the AI generated code age. To become a staple, I think the most crucial thing is demonstrating1) high quality, well thought out design: how the complexity calculation works, why the methodology is sound etc2) high quality, well engineered and tested code: Rust and uv design patterns is a good start but these days we cant tell whats written by AI, whats not etc.3) Disclosing relationship with SonarSource: their website gives me the ick and generally I get signals of propreitary bloatware. So if you're core algorithm is dependant on them, that gives me pause (its fine if it was the original inspiration, but now your repo has no dependencies to them).",
+          "Yeah, reads to me like a slop post pushing slop",
+          "Oh, wow, fastapi-guard mention!Tysm :) means a lot",
+          "Great job! ;)",
+          "Litestar: fast Api and web framework with layered dependency injection and well designed pluginsAdvanced Alchemy: A good library on top of sqlalchemy and alembicPyInfra: your infrastructure as a Python codePgQueuer: job queue library that uses Postgresql listen/notify ideal replacement of redis/celery stack",
+          "tymy understanding is it isn't finished yet, I don't think anyone is using it yet, so why is it a top item? Seems like no matter what they release people will just ride on the hype train.Also ty isn't a python library, same with uv and ruff.",
+          "PydanticAI should be on the list.",
+          "It made it to the list of 2024!",
+          "is ty production ready already?",
+          "No",
+          "They released the beta a few days ago",
+          "Still feels odd to include it and not pyrefly. Neither is prod ready",
+          "Pyrefly is in the runners-up. We felt ty deserved the top more, because of Astral's track record so far.",
+          "pynetbox",
+          "I ignored Kreuzberg when I saw it pop up on this subreddit a little while back because the name alone didn\u2019t pull me in enough to see what it was. But now that you highlight it here it actually looks pretty useful.",
+          "icechunk - version controlled, cloud-native tensor storage in a zarr schema (1.0 released in July).It can also link virtual references to other files when used with virtualizarr, which is great for converting (or combining) old files to a modern format (parallelized/async reading baked in) without copying/rewriting all of the data.",
+          "Recently came across pyreqwest, a new http client with a nice API and seemingly fast based on my very naive tests.Also it's criminal to mention Ty without mentioning pyrefly which is frankly ahead at least when it comes to ide features (still using pyright for typechecking so can't attest to that)",
+          "Hiu/sirfz!Thanks for recommendingpyreqwest, definitely missed that one.As of pyrefly, we didn't miss it: we throwa few lines about it when describing tyand present in the Runners-up.Alongside Meta's recently releasedpyrefly, ty represents a new generation of Rust-powered type checkers\u2014though with fundamentally different approaches. Where pyrefly pursues aggressive type inference that may flag working code, ty embraces the \"gradual guarantee\": removing type annotations should never introduce new errors, making it easier to adopt typing incrementally.We just thought ty has a much higher chance of broader adoption, because of the track record of Astral. That's why we picked it for our top 10.Cheers!",
+          "love this list! been using LlamaIndex for a project and its honestly so much cleaner than rolling your own rag setup. also glad to see smolagents getting attention - tried it last month and the code execution feature is pretty solid for simple automation tasks. appreciate yall keeping it real and not just listing every ai hype library out there",
+          "Markitdown is useful, could do with further improvements.",
+          "I am the author of throttled-py, thank you for your recommendation!",
+          "Great work! \ud83d\udcaa",
+          "awesome i will implement a few of them in my pystrict templatehttps://github.com/Ranteck/PyStrict-strict-python",
+          "this is good",
+          "Super usefulDidn't know about a lot of them, gonna start using them",
+          "What are you meant do with the output of complexipy?  Here is an output I got:_mix_64 0 PASSEDresize_table 0 PASSEDpopcount64 1 PASSEDdecode_op 2 PASSEDget_row_val 3 PASSEDset_row_val 3 PASSEDinsertion_sort_u64 4 PASSEDcompact_candidates 5 PASSEDcompute_hashes_blocked 5 PASSEDfind_batch_min 5 PASSEDinsert_hash 6 PASSEDunpack_state_to_matrix 6 PASSEDapply_op 8 PASSEDrehash_table_serial 8 PASSEDfilter_and_materialize 13 PASSEDgenerate_candidates 15 PASSEDwl_hash_state 28 FAILEDsolve_optimized 29 FAILEDAnd now what?",
+          "Oh, lovely, a clearly AI slop post \"written\" by a \"specialized AI and machine learning solutions company\" \ud83d\ude44",
+          "Smolagents !  \\o/",
+          "\u2060Which libraries would you have included?I'd have definitely put Wireup in there since I'm the author.https://github.com/maldoinc/wireup",
+          "Why is fasopenapi needed when we have openapi generators?",
+          "strawberryfor GraphQL development :)",
+          "Any good time series related modeling libraries ?",
+          "and pygwalker for data visualization!!",
+          "The three lists I want are:20 libraries you must install in python, and why.20 libraries you probably haven't heard of, but should.Top 3 libraries for each domain: Geo, financial, etc.But, curated so that ones which haven't seen an update in years, or have 3 stars are ignored.",
+          "Still too much AI. \u201cAgents\u201d are distracting us and creating zero value. Nearly nothing on the AI list has any real world use",
+          "In the typing catrgory I'd also addscipy-stubs(and not just because I wrote it, but mostly because I've been using it to successfully catch many bugs and improve productivity)",
+          "For data? I use it a lot for creating very long and labor-intensive spreadsheets and reports...",
+          "I\u2019ll add textual for terminal based gui."
+        ]
       },
       {
-        "title": "Is anyone else choosing not to use AI for programming?",
-        "url": "/r/Python/comments/1p9wluw/is_anyone_else_choosing_not_to_use_ai_for/",
-        "type": "discussion"
-      },
-      {
-        "title": "Any sites that I can used to make API requests for the positions of planets in the solar system",
-        "url": "/r/Python/comments/1pp0bzi/any_sites_that_i_can_used_to_make_api_requests/",
-        "type": "discussion"
+        "title": "Built a tiny python tool that tells you and your friend where to look to face each other",
+        "url": "https://www.reddit.com/r/Python/comments/1q0zly5/built_a_tiny_python_tool_that_tells_you_and_your/",
+        "type": "discussion",
+        "comments_count": 13,
+        "comments": [
+          "awwww \ud83d\udc95",
+          "yeah this started today on new year around 12:00. I was on a call with a friend who lives far away. We wanted to see each other, so we had this dumb idea to look across the Earth and call it \u201ceye contact\u201d and I decided to actually build it to wish him a happy new year.",
+          "How do you deal with gimbal lock?",
+          "Actually its a 2d projection i wanted to make it 3d to be accurate but i have no idea how to do that",
+          "I do not think this would be correct to compute angles on a 2D projection. Maybe some projection conserve the angles.I would compute the angle between the great circle trough the two points and the meridian line through the point.I did not check the computation though.",
+          "These are called gnomonic projections.\nUsing those, it would be easy to compute the angles.",
+          "Its not a flat map projection here, it\u2019s a simple spherical bearing formula, so it\u2019s already based on great circle geometry rather than a planar projection.Gnomonic projections are interesting though, I just didn\u2019t go that far",
+          "OK then, I miss understood when you said 2D",
+          "This is an issue only at the poles. No?",
+          "There is another kind of gimbal lock when the two friends are on exact opposite or same place on the globe.",
+          "Yea if the friends are on exact opposite sides of the Earth you\u2019d have to calculate an elevation angle, basically how much to look down.at that point it turns into a full 3D vector problem which I haven\u2019t figured out",
+          "The angle you have to look down is easy if you have the great circle arc. If the friends are separated by an angle a, they have to look down a/2 from the horizon",
+          "yea i mean who even lives on the poles tbh"
+        ]
       }
     ]
   },
@@ -71,7 +218,7 @@
     "subreddit": "learnpython",
     "url": "https://www.reddit.com/r/learnpython",
     "title": "Reddit - The heart of the internet",
-    "scraped_at": "2025-12-17 19:31:33",
+    "scraped_at": "2026-01-01 20:48:26",
     "python_topics": [
       {
         "title": "r/learnpython",
@@ -92,29 +239,75 @@
     ],
     "discussions": [
       {
-        "title": "Ask Anything Monday - Weekly Threadvote \u2022comments",
-        "url": "/r/learnpython/comments/1pmt14q/ask_anything_monday_weekly_thread/",
-        "type": "discussion"
+        "title": "Ask Anything Monday - Weekly Threadvotes \u2022comments",
+        "url": "https://www.reddit.com/r/learnpython/comments/1py6prn/ask_anything_monday_weekly_thread/",
+        "type": "discussion",
+        "comments_count": 0,
+        "comments": []
       },
       {
         "title": "Ask Anything Monday - Weekly Threadvotes \u2022comments",
-        "url": "/r/learnpython/comments/1paxmgz/ask_anything_monday_weekly_thread/",
-        "type": "discussion"
+        "url": "https://www.reddit.com/r/learnpython/comments/1paxmgz/ask_anything_monday_weekly_thread/",
+        "type": "discussion",
+        "comments_count": 8,
+        "comments": [
+          "I started easing my way into coding about 4-5 months ago I watched 4 YouTube courses on how python works and all the beginner to intermediate stuff, and 1 final video course on api connections and made a gigantic spreadsheet of all the built in functions, keywords, with definitions and examples and definitions of everything I didn\u2019t understand once I found it out. Following that I completed the sololearn python developer certification. Once completed I started on my first project which is pretty advanced for me it incorporates a lot of api components and most of the time when I don\u2019t understand what\u2019s meant to go where I just give up and ask ChatGPT for the answer which normal is an awful example but I use it more like a blue print so I know where stuff is kind of supposed to go. Im just looking for some guidance on where to go from here to take it to the next level so I\u2019m not so dependent on ChatGPT.For the TL;DR\nI started coding 4-5 months ago I use ChatGPT to much and I want to get better faster, thank you.",
+          "Hello everyone, I am a beginner in Python. I watch YouTube vidoes just to understand coding but when I wanna do the examples. I do not know how to go about it.Please I need help in understanding Python.",
+          "YouTube is a great place to start! I'd keep searching for the right video. search keywords to use:your operating system's name\"install Python\" (if you haven't installed it yet or aren't sure )\n-\" IDE\" and/or \"workflow\"\"beginner\"",
+          "Hello guys, beginner Python user here. \nAny materials that are free / cheap that I can use over the holiday period to study data structures? Eg binary trees linked lists hash tables etcI need to practice for university because I flunked my last paper which mostly comprised of those topicsAnd in general what is a good way to study and practice Python?I did do the 101 course from my university which did help, but it was mostly syntax and this current course is a big jump which I struggled to adjust to. \nThanks guys !",
+          "Hello guys, beginner Python user here. Any materials that are free / cheap that I can use over the holiday period to study data structures? Eg binary trees linked lists hash tables etcYES, I know a really good resource that got me really good at this in a hurry. (caveat, there are a lot of them and everyone has their own favorite). my favorite isneetcodeand its roadmap. use that map, and the linked video explanations.remember this: the objective of studying data structures and algorithms isn't for you to be able to deduce the solutions of problems! it's for you to be able torememberthe solutions to problems.And in general what is a good way to study and practice Python?The best way to learnpythonis to build stuff.Advent of Codestarted today!",
+          "I heard the Automate The Boring Stuff course becomes free on the first three days of the month. It is Dec 2nd today so how can I find it? (On Udemy it is still shown as a paid course.)",
+          "I am using Spyder with Anaconda in Windows for some basic scripting, more complicated stuff I'll do in Ubuntu but that's not relevant here.When I try to plot something with matplotlib, sometimes it plots in Spyder's \"Plots\" tab and everything is fine. Sometimes it tries to open a new window that immediately freezes and crashes the kernel. Obviously I would prefer only the first to occur, but I don't know what leads to one or the other. Has anyone encountered this before or knows how to fix it?Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]\nType \"copyright\", \"credits\" or \"license\" for more information.IPython 8.27.0 -- An enhanced Interactive Python.Edit: when other people have this problem it'sreally fuckyto solve, is there another GUI-capable python console you'd recommend?Edit 2, for future googlers: I went into Tools>Preferences>iPython Console>Graphics and changed the backend to Tkinter, ran it, saw it made a working graph in its own window, then changed it back to inline and worked. I'll see if this keeps working.",
+          "Super odd. Grand that you posted the answer here for future searchers!"
+        ]
       },
       {
-        "title": "I can read and understand code, but I can't build my own logic. How do I bridge the gap?",
-        "url": "/r/learnpython/comments/1potia7/i_can_read_and_understand_code_but_i_cant_build/",
-        "type": "discussion"
+        "title": "I built an agent-based COVID-19 simulation in Python for my Master\u2019s project",
+        "url": "https://www.reddit.com/r/learnpython/comments/1q1dcjc/i_built_an_agentbased_covid19_simulation_in/",
+        "type": "discussion",
+        "comments_count": 0,
+        "comments": []
       },
       {
-        "title": "Best way to learn python in 2025? looking for real advice",
-        "url": "/r/learnpython/comments/1p41rlz/best_way_to_learn_python_in_2025_looking_for_real/",
-        "type": "discussion"
+        "title": "How do you learn proper API design standards when building your first Python APIs?",
+        "url": "https://www.reddit.com/r/learnpython/comments/1pduny7/how_do_you_learn_proper_api_design_standards_when/",
+        "type": "discussion",
+        "comments_count": 19,
+        "comments": [
+          "Unfortunately, you get experience by experiencing, which takes time.Making mistakes. Then, years later: trying to fix the mistakes.Using other APIs that you're dissatisfied with. Learn from other people's mistakes. Reflect: what problems do these APIs have, what could have been done better?Using other APIs that you feel are easy to use. Reflect: what makes them a breeze?Learning background on why HTTP is the way it is, e.g. by reading the reference pages on MDN, or even the\u00a0 specifications in the RFCs. What status codes and methods are there and what do they mean? Not every API has to be RESTful, but learn ideas like Representations, State Transfer, Hypermedia, and Cache Control. Some technologies like GraphQL reject REST \u2013 what pain points do they address, but which new problems do they introduce? What problems does the proposed HTTP QUERY method address?As a more general point, I recomend always starting the design of an API by thinking about how it will be used. The needs of the clients are most important. Sometimes, it can be helpful to start by writing a test or to start by sketching out a sequence of HTTP requests.A common challenge I face are concurrent modifications of the same resource. I've found conditional HTTP requests (via timestamps or Etags) to be relatively useless, so I often end up implementing some custom optimistic locking.Pagination is always a challenge. Offset-based pagination is easy to use, but can lead to duplicate or skipped results when there are concurrent modifications. Cursor-based pagination can be a useful alternative.",
+          "Unfortunately, I share your pain. I went down a rabbit hole trying to find theperfectFastAPI template that works for all projects and is built with best practices. You sooner or later realize nothing like that exists. Because every project has a different purpose, so the API comes out differently at the end. (but I\u2019m still working on making nearly perfect template that is production-ready and works for almost all use cases, for my company).But, you\u2019re right there are several good practices you should be following when building an API. I would say just research and get lost in the sauce :)You\u2019ll learn a lot about stuff like there is a Internet standard on how to return proper error response from an API:RFC 9457I've also been reading on good tips for FastAPI:\n-https://github.com/fastapi/full-stack-fastapi-template/tree/master-https://github.com/zhanymkanov/fastapi-best-practices-https://github.com/Kludex/fastapi-tips",
+          "Tye simplest advise I can give is start with a model. Be that smithy or swagger, and then use the available client and server generators, then plug in the logic.",
+          "Reading standards (Google, Microsoft, OpenAPI). You can also ask GPT, Copilot or other AI tools to review your code or compare it with standards. It\u2019s not perfect, but it can show useful links and explain things. In my experience GPT-5 works quite well for discussing abstract architecture principles.And practice.P.S. Comparing to examples is not bad, but examples are often oversimplified. Read best practices, but not from one source, google for 'rest best practices' and read few of them at least. For examplehttps://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design(Microsoft has a lot of good material on design principles in different areas. Sometimes it\u2019s overengineered, so you don\u2019t need to follow everything. But knowing about possibilities is always good)https://learn.openapis.org/best-practices.htmlhttps://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+          "API Design Principles in PythonBeyond general coding standards, effective API design focuses on usability, consistency, and stability.Simplicity and Consistency: APIs should be intuitive and follow consistent design patterns and coding styles across all endpoints and modules.Use Standard Protocols: Most Python APIs are built as RESTful services using frameworks likeFastAPI,Flask, orDjango.Meaningful Endpoints/Paths: Request paths should be clear and use nouns for resources (e.g.,/users, not/get_users).Use JSON for Data Exchange: JSON is the standard format for API requests and responses in Python development.Utilize Standard HTTP Status Codes: Use appropriate HTTP status codes (e.g., 200 OK, 201 Created, 400 Bad Request, 404 Not Found, 500 Internal Server Error) to indicate the outcome of a request.Security Best Practices:Always use HTTPS.Validate and sanitize all user input.Never hard-code sensitive information like API keys; use environment variables or configuration files.Comprehensive Documentation: Provide clear and accessible documentation. Docstrings are essential, and automated tools like Sphinx can generate external documentation for API consumers.Error Handling: Use specific exceptions for error management rather than returning status codes within functions. This leads to cleaner code flow and allows the final function to handle the error appropriately.Modular Architecture: Structure the project into logical layers (controllers, services, repositories, domain models) to separate concerns and enhance maintainability.",
+          "See? AI is good for asking general questions about standards. :)",
+          "I think its when you drill down it gives varied answers:)",
+          "And to be honest, if you ask 10 architects you'll get 11 answers about implementation details.That's why I wrote that you should seek multiple sources about standars, so you will have better understanding. And one more thing about AI - ask often 'why'.",
+          "Great question, I\u2019d love an answer too",
+          "Have you looked at the FastAPI docs? They\u2019re really good",
+          "Copy from other place.",
+          "Time and experience. But in the best practice OCD world of modern development, just getting something to work reliably and repeatably - however the hell you do it, is the most critical step. From there it\u2019s refinement.If you are also building the front end that handles the api response, experience will show you what works and what doesn\u2019t.If you simply serving up apis, then you need either documentation from the api consumers, specifying json structures. If you are building something more general purpose then it\u2019s a matter of anticipating what consumers will be doing with your response objects, and then making them user friendly to that goal.",
+          "It's an eternal problem",
+          "I always try to keep the response as flat as possible. I have no experience with it but APIs became so nested that people built GraphQL. Pass an array or a list in the response b/c that is what is used in the front end. Most app/webs users scroll up/down over a group of objects (list or array) & then select one object for details, specs, add to cart, etc..",
+          "ThisREST API Design with Pythoncourse covers everything you mentioned. It focuses on building a fully featured REST API with best practices in mind.It covers good architecture, response structure, maintainability, API versioning and everything else that goes into building a well thought out API.",
+          "honestly just read the RESTful API design guidelines from Microsoft or Google. they're pretty comprehensive and not too dryalso look at APIs you actually use (Stripe, GitHub, etc) and see how they structure things. most good APIs are consistent for a reasonyou'll still make mistakes but at least you'll know what \"good\" looks like",
+          "tbh this is normal early on, tutorials stop at \u201cit works\u201d and skip the design side. api architect/structuring is less memorizing rules and more about building patterns (or recognizing them), this is what I'd do if i wanted to set up for my project:-read real world apis (stripe, gitlab, etc) and look for consistency (consistent > perfect)-treat your api like a contract. once you think that way, naming + responses start to matter more-always think and plan responses first (what does the client expect), then write endpoints, thinking in servers are pretty good, but you need to have client in mind imofor python tho, fastapi + pydantic helps a lot in defining request/response models forces you to think about structure, types, and edge cases upfront. it also keeps things consistent on client side.status code should be boring. 200/201/204 for success, 400 for bad input, 401/403 for auth, 404 when it\u2019s actually missing. ppl overthink this..also don\u2019t aim for \u201cperfect\u201d standards early. aim for predictable. if all your endpoints behave the same way, you\u2019re already ahead of most first apis.",
+          "swipey",
+          "https://roadmap.sh/api-design"
+        ]
       },
       {
-        "title": "What is a venv?",
-        "url": "/r/learnpython/comments/1pjudpx/what_is_a_venv/",
-        "type": "discussion"
+        "title": "Project Management and Python",
+        "url": "https://www.reddit.com/r/learnpython/comments/1q1h5sz/project_management_and_python/",
+        "type": "discussion",
+        "comments_count": 6,
+        "comments": [
+          "We don\u2019t have the people to write scripts to automate getting data out of Jira so I used python to get the data and out it in excel. Then use excel to build dashboards.",
+          "I had a similar thought, but with ADO. I\u2019m assuming it would be possible regardless of platform?",
+          "What exactly is your question? Can python be used to automate manual processes in your job? Yeah, very likely.It\u2019s not clear to me what it is you want to know though, and your list of projects is pretty generic. Is there a specific problem that you\u2019re trying to solve?",
+          "I suppose the core of my question is wondering if it\u2019s worth undertaking the journey of learning python as a Project Manager",
+          "Which I understand is extremely subjective",
+          "Got it. In my opinion, it depends.If you\u2019re already interested in learning to code for your own learning/fulfillment, and you can think of concrete tasks or processes that could be automated and would save you or someone else lots of time, then it\u2019s absolutely worth it, as long as you\u2019re able to do it in a way that doesn\u2019t detract from doing your day to day job.But also you were hired as a PM, not an engineer, and depending on the scope of the process you\u2019re trying to improve, there could be a lot of considerations that I, as a hypothetical manager of your broader team, would not be so comfortable leaving to a beginner programmer who wasn\u2019t even really hired to do that.So I would say, look inside yourself. If you are actually interested in learning to code, and willing to dedicate genuine time to this, then go for it, there are tons of resources online to learn from. But I would tamper your expectations about the impact it might help you have at work. You can absolutely get yourself, with not a crazy amount of effort, to the point that you can automate away some tedious manual things you have to do on a daily basis that aren\u2019t too complex. But I wouldn\u2019t let that be the driving motivator for your learning Python."
+        ]
       }
     ]
   }

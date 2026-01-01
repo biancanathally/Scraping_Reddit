@@ -1,23 +1,24 @@
 Subreddit,Type,Title,URL,Scraped_at
-Python,python_topic,r/PythonPycon US 2025starts next week!,,2025-12-17 19:31:30
-Python,python_topic,r/Python Rules,,2025-12-17 19:31:30
-Python,python_topic,"""How do I"", Help, or similar questions belong in r/LearnPython",,2025-12-17 19:31:30
-Python,python_topic,Posts must be relevant to the Python Programming Language,,2025-12-17 19:31:30
-Python,python_topic,When posting projects please include both description text and a link to source code,,2025-12-17 19:31:30
-Python,python_topic,Join the Python Discord,,2025-12-17 19:31:30
-Python,python_topic,Related Python communities,,2025-12-17 19:31:30
-Python,discussion,Sunday Daily Thread: What's everyone working on this week?votes •comments,/r/Python/comments/1plzvku/sunday_daily_thread_whats_everyone_working_on/,2025-12-17 19:31:30
-Python,discussion,Tuesday Daily Thread: Advanced questionsvotes •comment,/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/,2025-12-17 19:31:30
-Python,discussion,Tuesday Daily Thread: Advanced questionsvotes •comment,/r/Python/comments/1pbt718/tuesday_daily_thread_advanced_questions/,2025-12-17 19:31:30
-Python,discussion,Beta release of ty - an extremely fast Python type checker and language server,/r/Python/comments/1podix2/beta_release_of_ty_an_extremely_fast_python_type/,2025-12-17 19:31:30
-Python,discussion,Is anyone else choosing not to use AI for programming?,/r/Python/comments/1p9wluw/is_anyone_else_choosing_not_to_use_ai_for/,2025-12-17 19:31:30
-Python,discussion,Any sites that I can used to make API requests for the positions of planets in the solar system,/r/Python/comments/1pp0bzi/any_sites_that_i_can_used_to_make_api_requests/,2025-12-17 19:31:30
-learnpython,python_topic,r/learnpython,,2025-12-17 19:31:33
-learnpython,python_topic,r/learnpython Rules,,2025-12-17 19:31:33
-learnpython,python_topic,Posts to this subreddit must be requests for help learning python.,,2025-12-17 19:31:33
-learnpython,python_topic,Code Hosting/Formatting,,2025-12-17 19:31:33
-learnpython,discussion,Ask Anything Monday - Weekly Threadvote •comments,/r/learnpython/comments/1pmt14q/ask_anything_monday_weekly_thread/,2025-12-17 19:31:33
-learnpython,discussion,Ask Anything Monday - Weekly Threadvotes •comments,/r/learnpython/comments/1paxmgz/ask_anything_monday_weekly_thread/,2025-12-17 19:31:33
-learnpython,discussion,"I can read and understand code, but I can't build my own logic. How do I bridge the gap?",/r/learnpython/comments/1potia7/i_can_read_and_understand_code_but_i_cant_build/,2025-12-17 19:31:33
-learnpython,discussion,Best way to learn python in 2025? looking for real advice,/r/learnpython/comments/1p41rlz/best_way_to_learn_python_in_2025_looking_for_real/,2025-12-17 19:31:33
-learnpython,discussion,What is a venv?,/r/learnpython/comments/1pjudpx/what_is_a_venv/,2025-12-17 19:31:33
+Python,python_topic,r/PythonPycon US 2025starts next week!,,2026-01-01 20:48:05
+Python,python_topic,"Thursday Daily Thread: Python Careers, Courses, and Furthering Education!",,2026-01-01 20:48:05
+Python,python_topic,r/Python Rules,,2026-01-01 20:48:05
+Python,python_topic,"""How do I"", Help, or similar questions belong in r/LearnPython",,2026-01-01 20:48:05
+Python,python_topic,Posts must be relevant to the Python Programming Language,,2026-01-01 20:48:05
+Python,python_topic,When posting projects please include both description text and a link to source code,,2026-01-01 20:48:05
+Python,python_topic,Join the Python Discord,,2026-01-01 20:48:05
+Python,python_topic,Related Python communities,,2026-01-01 20:48:05
+Python,discussion,Sunday Daily Thread: What's everyone working on this week?votes •comments,https://www.reddit.com/r/Python/comments/1pxck5u/sunday_daily_thread_whats_everyone_working_on/,2026-01-01 20:48:05
+Python,discussion,"Thursday Daily Thread: Python Careers, Courses, and Furthering Education!votes •comments",https://www.reddit.com/r/Python/comments/1q0qvbq/thursday_daily_thread_python_careers_courses_and/,2026-01-01 20:48:05
+Python,discussion,Tuesday Daily Thread: Advanced questionsvotes •comment,https://www.reddit.com/r/Python/comments/1pbt718/tuesday_daily_thread_advanced_questions/,2026-01-01 20:48:05
+Python,discussion,I built a drop-in Scikit-Learn replacement for SVD/PCA that automatically selects the optimal rank,https://www.reddit.com/r/Python/comments/1q16o9o/i_built_a_dropin_scikitlearn_replacement_for/,2026-01-01 20:48:05
+Python,discussion,Top Python Libraries of 2025 (11th Edition),https://www.reddit.com/r/Python/comments/1pptnyc/top_python_libraries_of_2025_11th_edition/,2026-01-01 20:48:05
+Python,discussion,Built a tiny python tool that tells you and your friend where to look to face each other,https://www.reddit.com/r/Python/comments/1q0zly5/built_a_tiny_python_tool_that_tells_you_and_your/,2026-01-01 20:48:05
+learnpython,python_topic,r/learnpython,,2026-01-01 20:48:26
+learnpython,python_topic,r/learnpython Rules,,2026-01-01 20:48:26
+learnpython,python_topic,Posts to this subreddit must be requests for help learning python.,,2026-01-01 20:48:26
+learnpython,python_topic,Code Hosting/Formatting,,2026-01-01 20:48:26
+learnpython,discussion,Ask Anything Monday - Weekly Threadvotes •comments,https://www.reddit.com/r/learnpython/comments/1py6prn/ask_anything_monday_weekly_thread/,2026-01-01 20:48:26
+learnpython,discussion,Ask Anything Monday - Weekly Threadvotes •comments,https://www.reddit.com/r/learnpython/comments/1paxmgz/ask_anything_monday_weekly_thread/,2026-01-01 20:48:26
+learnpython,discussion,I built an agent-based COVID-19 simulation in Python for my Master’s project,https://www.reddit.com/r/learnpython/comments/1q1dcjc/i_built_an_agentbased_covid19_simulation_in/,2026-01-01 20:48:26
+learnpython,discussion,How do you learn proper API design standards when building your first Python APIs?,https://www.reddit.com/r/learnpython/comments/1pduny7/how_do_you_learn_proper_api_design_standards_when/,2026-01-01 20:48:26
+learnpython,discussion,Project Management and Python,https://www.reddit.com/r/learnpython/comments/1q1h5sz/project_management_and_python/,2026-01-01 20:48:26
