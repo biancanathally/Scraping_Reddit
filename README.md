@@ -44,6 +44,7 @@ O scraper organiza as informações da seguinte forma:
 * **Type**: Categoria (se é um tópico principal ou uma discussão/comentário).
 * **Title**: O texto extraído do post.
 * **URL**: Link direto para a discussão (quando disponível).
+* **Comments**: Os comentários do post.
 * **Scraped_at**: Timestamp exato da coleta.
 
 ## ⚠️ Notas legais e éticas
